@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+nav{
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	background: #fff;
+	-webkit-box-shadow: 1px 5px 15px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 5px 15px -3px rgba(0,0,0,0.75);
+box-shadow: 1px 5px 15px -3px rgba(0,0,0,0.75);
+	width: 100%;
+	left: 0;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul li{
+	list-style: none;
+}
+body{
+	padding-bottom: 50vh;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+}
+nav ul li a:hover{
+	color: #1c34bb;
+}
+.active{
+	color: #1c34bb;
+}
+
+nav ul{
+	display: flex;
+	gap: 20px;
+	justify-content: right;
+
+}
+
+#Abstract{
+	margin-top: 100px;
+}
+
+#Abstract h1{
+	margin-bottom: 20px;
+}
+
+ p{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#section1,#section2,#seeAlso,#References{
+	margin-top: 50px;
+}
+
+ h2{
+	margin-bottom: 15px;
+}
+
+img{
+	max-width: 100%;
+}
+
+#section2 ul{
+	width: 100%;
+	display: block;
+	margin-top: 15px;
+}
+#section2 ul li{
+	width: 100%;
+	padding: 5px 0;
+}
+.link{
+	margin: 10px 0;
+}
